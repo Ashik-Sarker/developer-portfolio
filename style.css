@@ -8,12 +8,13 @@ body{
 }
 h1{
     font-size: 50px;
-}
+ }
 .orange-color{
     color:rgb(255, 166, 0);
 }
 .heading_section{
     display: flex;
+    padding-top: 100px;
 }
 .divWidth{
     width: 50%;
@@ -30,4 +31,10 @@ h1{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.dream_big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
