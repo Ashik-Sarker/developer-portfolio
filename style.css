@@ -14,7 +14,7 @@ h1{
 }
 .heading_section{
     display: flex;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 .divWidth{
     width: 50%;
@@ -37,4 +37,35 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience_item{
+    width: 40%;
+    margin: 0% 5%;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgb(163, 158, 158);
+}
+.experience_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.divWidth p{
+    width: 85%;
+}
+#experienced-web-dev{
+    border-left: 10px solid;
+    border-image:linear-gradient(rgb(31, 31, 209), rgb(94, 94, 124), rgb(20, 134, 134)) 27;
+}
+#baby-web-dev{
+    border-left: 10px solid;
+    border-image:linear-gradient(rgb(179, 31, 209), rgb(21, 21, 224), rgb(134, 62, 20)) 27;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 200px;
 }
